@@ -1,14 +1,68 @@
+/* Test of twee code format! */
+
 :: StoryData
 {
 	"ifid": "2C26F334-060A-4F99-A4D9-F9BECD63DD12",
-	"format": "Snowman",
-	"format-version": "2.0.2"	
+	"format": "SugarCube",
+	"format-version": "2.30.0",
+	"zoom": 0.5	
+}
+
+:: Master SCripts [script]
+
+UIBar.destroy();
+
+:: Master Styles [stylesheet]
+
+body {
+	color: #222;
+	background-color: #aaa;
+}
+
+div #chars {
+	display: block;
+	height: 60%;
+}
+
+
+
+div #passages {
+	display: block;
+	width: 70%;	
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div #passages .passage {
+	overflow: hidden;
+	color: #fff;
+	font-size: 18px;
+	padding: 1em;
+	background-color: #000088;
 }
 
 :: StoryTitle
 
-A test.
+Visual novel style tests.
 
 :: Start
 
-This is a test of the twee code situation.
+!!Donna
+Here is a line of dialogue a character should say.
+
+!!Marisancha
+And here is another line of dialogue.
+
+[[Here is a choice point|Choice A]].
+
+[[Here is another|Choice B]].
+
+
+:: Choice A
+
+You chose choice A!
+
+:: Choice B
+
+You chose choise B!
