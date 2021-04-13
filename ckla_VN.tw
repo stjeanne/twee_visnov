@@ -1,7 +1,8 @@
 :: StoryData
 {
 	"ifid": "2C26F334-060A-4F99-A4D9-F9BECD63DD12",
-	"format": "Sugarcube"
+	"format": "Snowman",
+	"format-version": "2.0.2"	
 }
 
 :: StoryTitle
