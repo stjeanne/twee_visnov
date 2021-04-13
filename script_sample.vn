@@ -1,0 +1,24 @@
+/* SCRIPT for CKLA VN engine */
+
+- scene1
+
+/* CONTROL CODE REFERENCE
+
+% [image-ref] [position] [transition]
+
+d
+Here's a line of dialogue. It appears on the next line from the character code.
+
+(The letters and their mappings are defined at the start of each story.)
+
+^ sfx [SFX file]
+^ music [music file]
+
+
+*/
+
+d
+Here is a line of dialogue from me, Donna!
+
+m
+And here's one from me, Marisancha.

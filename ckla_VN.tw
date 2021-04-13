@@ -24,8 +24,6 @@ div #chars {
 	height: 60%;
 }
 
-
-
 div #passages {
 	display: block;
 	width: 70%;	
@@ -54,10 +52,11 @@ Here is a line of dialogue a character should say.
 !!Marisancha
 And here is another line of dialogue.
 
+/*
 [[Here is a choice point|Choice A]].
 
 [[Here is another|Choice B]].
-
+*/
 
 :: Choice A
 
